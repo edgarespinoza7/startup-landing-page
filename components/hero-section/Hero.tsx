@@ -17,7 +17,14 @@ export default function Hero() {
             Learn More
           </button>
         </div>
-        <video src="" className="rounded-xl" autoPlay muted loop></video>
+        <div className="pt-10">
+          <video className="rounded-xl" autoPlay muted loop>
+            <source
+              src="/content/4872896-hd_1920_1080_25fps.mp4"
+              type="video/mp4"
+            />
+          </video>
+        </div>
       </div>
     </section>
   );
