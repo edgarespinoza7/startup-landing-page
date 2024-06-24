@@ -1,6 +1,7 @@
 import Carousel from "@/components/carousel-section/Carousel";
 import Hero from "@/components/hero-section/Hero";
 import Navbar from "@/components/navbar/Navbar";
+import SecondSection from "@/components/second-section/second-section";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Navbar />
       <Hero/>
       <Carousel/>
+      <SecondSection/>
     </div>
   );
 }
