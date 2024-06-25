@@ -62,7 +62,7 @@ export function NavLinks() {
     <NavigationMenu>
       <NavigationMenuList className="hidden md:flex md:space-x-4">
         <NavigationMenuItem>
-          <NavigationMenuTrigger className="text-md">Getting started</NavigationMenuTrigger>
+          <NavigationMenuTrigger className="text-md text-gray-500">Getting started</NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="grid gap-3 p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
               <li className="row-span-3">
@@ -73,7 +73,7 @@ export function NavLinks() {
                   >
                     <Logo/>
                     <div className="mb-2 mt-4 text-lg font-medium">
-                      shadcn/
+                      NextG
                     </div>
                     <p className="text-sm leading-tight text-muted-foreground">
                       eCommrce Platform for selling digital products.
@@ -82,10 +82,10 @@ export function NavLinks() {
                 </NavigationMenuLink>
               </li>
               <ListItem href="/" title="Introduction">
-                Learn about the basic of Bird.
+                Learn about the basic of NextG.
               </ListItem>
               <ListItem href="/" title="Demo">
-                How to build a store in 60 seconds with Bird.
+                How to build a store in 60 seconds with NextG.
               </ListItem>
               <ListItem href="/" title="Community">
                 Join the community and get help or support.
@@ -94,7 +94,7 @@ export function NavLinks() {
           </NavigationMenuContent>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <NavigationMenuTrigger className="text-md">Templates</NavigationMenuTrigger>
+          <NavigationMenuTrigger className="text-md text-gray-500">Templates</NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
               {components.map((component) => (
@@ -111,14 +111,14 @@ export function NavLinks() {
         </NavigationMenuItem>
         <NavigationMenuItem>
           <Link href="/" legacyBehavior passHref>
-            <NavigationMenuLink className="font-medium">
+            <NavigationMenuLink className="font-medium text-gray-500">
               Documentation
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
         <NavigationMenuItem>
           <Link href="/" legacyBehavior passHref>
-            <NavigationMenuLink className="font-medium">
+            <NavigationMenuLink className="font-medium text-gray-500">
               Pricing
             </NavigationMenuLink>
           </Link>

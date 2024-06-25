@@ -1,4 +1,6 @@
 import Carousel from "@/components/carousel-section/Carousel";
+import Footer from "@/components/footer/Footer";
+import Cta from "@/components/cta/Cta";
 import FourthSection from "@/components/fourth-section/FourthSection";
 import Hero from "@/components/hero-section/Hero";
 import Navbar from "@/components/navbar/Navbar";
@@ -16,6 +18,8 @@ export default function Home() {
       <ThirdSection/>
       <FourthSection/>
       <Pricing/>
+      <Cta/>
+      <Footer/>
     </div>
   );
 }

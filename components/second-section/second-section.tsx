@@ -51,18 +51,17 @@ const features = [
 
 export default function SecondSection() {
   return (
-    <section className="container pb-10">
-      <div className="md:flex-row flex-col items-center flex justify-center gap-x-12 py-10">
-        <div className="p-5 justify-center md:w-1/3">
-          <div className="bg-gradient-to-r from-blue-800 to-green-300 bg-clip-text text-transparent text-5xl  font-bold pb-10">
-            From Startup to Enterprise, Bird is built for every type of
-            business.
+    <section className="container">
+      <div className="md:flex-row flex-col items-center flex justify-center gap-x-12 gap-y-10 py-10">
+        <div className="md:w-1/3">
+          <div className="bg-gradient-to-r from-blue-800 to-green-300 bg-clip-text text-transparent text-4xl md:text-5xl font-bold pb-10">
+            From Startup to Enterprise, NextG is built for every type of business.
           </div>
           <div className="text-lg mb-8">
-            Built for all businesses and communities. Bird is the only platform
+            Built for all businesses and communities. NextG is the only platform
             you need to grow your business.
           </div>
-          <button className="bg-blue-500 text-white p-4 flex justify-center md:w-1/3 rounded-lg hover:bg-blue-600">
+          <button className="bg-blue-500 text-white p-4 flex justify-center md:w-2/3 rounded-lg hover:bg-blue-600">
             Get Started
           </button>
         </div>
@@ -71,7 +70,7 @@ export default function SecondSection() {
         </video>
       </div>
       <div className="flex-col items-center justify-center">
-        <div className="text-3xl flex justify-center md:text-5xl font-bold pt-10 pb-10 bg-gradient-to-r from-purple-400 to-blue-800 bg-clip-text text-transparent">
+        <div className="text-4xl flex justify-center md:text-6xl font-bold pt-10 pb-10 bg-gradient-to-r from-purple-400 to-blue-800 bg-clip-text text-transparent mb-4">
           Product Features
         </div>
         <div className="grid grid-cols-1 md:grid md:grid-cols-3 gap-4">
@@ -83,9 +82,9 @@ export default function SecondSection() {
               <Image
                 alt={feature.alt}
                 src={feature.image}
-                width={300}
-                height={300}
-                className="object-contain h-20 w-20 items-center justify-center flex mb-8"
+                width={200}
+                height={200}
+                className="object-contain h-10 w-10 items-center justify-center flex mb-6"
               />
               <div className="text-2xl font-bold pb-4 bg-gradient-to-t from-black to-gray-400 bg-clip-text text-transparent ">
                 {feature.title}

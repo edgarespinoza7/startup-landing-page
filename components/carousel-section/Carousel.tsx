@@ -73,7 +73,7 @@ export default function Carousel() {
   return (
     <div>
       <div className="items-center justify-center flex text-3xl font-bold md:pb-10 px-10 bg-gradient-to-r from-blue-500 to-green-300 bg-clip-text text-transparent">
-        More than 100+ brands have built their business with Bird Software
+        More than 100+ brands have built their business with NextG Software
       </div>
 
       <div className="grid grid-cols-3 p-4 md:flex">
