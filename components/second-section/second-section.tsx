@@ -51,8 +51,8 @@ const features = [
 
 export default function SecondSection() {
   return (
-    <div>
-      <div className="md:flex-row flex-col items-center flex justify-center gap-x-12 pb-10 ">
+    <section className="container pb-10">
+      <div className="md:flex-row flex-col items-center flex justify-center gap-x-12 py-10">
         <div className="p-5 justify-center md:w-1/3">
           <div className="bg-gradient-to-r from-blue-800 to-green-300 bg-clip-text text-transparent text-5xl  font-bold pb-10">
             From Startup to Enterprise, Bird is built for every type of
@@ -66,15 +66,15 @@ export default function SecondSection() {
             Get Started
           </button>
         </div>
-        <video className="rounded-xl md:w-2/5 p-4 md:p-0" autoPlay muted loop>
+        <video className="rounded-xl md:w-2/3 p-4 md:p-0" autoPlay muted loop>
           <source src="/content/4872897-hd_1920_1080_25fps.mp4" />
         </video>
       </div>
       <div className="flex-col items-center justify-center">
-        <div className="text-3xl flex justify-center md:text-5xl font-bold pt-5 pb-10 bg-gradient-to-r from-purple-400 to-blue-800 bg-clip-text text-transparent">
+        <div className="text-3xl flex justify-center md:text-5xl font-bold pt-10 pb-10 bg-gradient-to-r from-purple-400 to-blue-800 bg-clip-text text-transparent">
           Product Features
         </div>
-        <div className="grid grid-cols-1 md:grid md:grid-cols-3 p-4 gap-4 md:px-40">
+        <div className="grid grid-cols-1 md:grid md:grid-cols-3 gap-4">
           {features.map((feature, index) => (
             <div
               key={index}
@@ -97,6 +97,6 @@ export default function SecondSection() {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 }

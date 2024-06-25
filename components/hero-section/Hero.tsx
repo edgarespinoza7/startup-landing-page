@@ -1,7 +1,7 @@
 export default function Hero() {
   return (
-    <section className="md:py-20 py-10 bg-gradient-to-r from-gray-00 to-gray-200 space-y-10">
-      <div className="container mx-auto text-center">
+    <section className="md:py-20 py-10 bg-gradient-to-r from-gray-00 to-gray-200 space-y-10 container ">
+      <div className="mx-auto text-center">
         <div className="text-6xl flex justify-center font-bold md:px-20 pb-10 text-gradient bg-gradient-to-r from-blue-500 to-green-300 bg-clip-text text-transparent ">
           Build a Brand and Start Selling in Seconds
         </div>

@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function ThirdSection() {
   return (
-    <div className="flex p-10 flex-col md:flex-row md:justify-evenlyl">
-      <div className="flex-col flex md:flex-row gap-6 md:px-10">
+    <section className="flex flex-col md:flex-row container pt-12">
+      <div className="flex-col flex md:flex-row gap-6 ">
         <div className="md:w-2/3 w-full">
           <video
             src="/content/6613675-hd_1920_1080_25fps.mp4"
@@ -69,6 +69,6 @@ export default function ThirdSection() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
